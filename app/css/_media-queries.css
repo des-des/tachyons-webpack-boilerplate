@@ -1,0 +1,3 @@
+/*We can override the media queries*/
+@custom-media --breakpoint-medium screen and (min-width: 30em) and (max-width: 70em);
+@custom-media --breakpoint-large screen and (min-width: 70em);

@@ -1,11 +1,13 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
+import '../css/style.css'
+
 const e = React.createElement
 
 const Hello = () => e(
   'div',
-  {},
+  {className: 'des-m'},
   'hello, world'
 )
 

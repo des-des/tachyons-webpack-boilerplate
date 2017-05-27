@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack-dev-server"
+    "dev": "webpack-dev-server",
+    "Build": "webpack -p"
   },
   "keywords": [],
   "author": "des-des",
@@ -31,6 +32,7 @@
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "style-loader": "^0.18.1",
+    "tachyons": "^4.7.4",
     "webpack": "^2.6.1",
     "webpack-dev-server": "^2.4.5"
   }
