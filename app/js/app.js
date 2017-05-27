@@ -5,11 +5,13 @@ import '../css/style.css'
 
 const e = React.createElement
 
-const Hello = () => e(
-  'div',
-  {className: 'des-m'},
-  'hello, world'
-)
+const Hello = function() {
+  return e(
+    'div',
+    {className: 'des-m'},
+    'hello, world'
+  )
+}
 
 ReactDOM.render(
   e(Hello),
