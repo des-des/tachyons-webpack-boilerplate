@@ -1,0 +1,36 @@
+{
+  "name": "tachyons-webpack-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate for tachyons with react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "des-des",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/des-des/tachyons-webpack-boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/des-des/tachyons-webpack-boilerplate/issues"
+  },
+  "homepage": "https://github.com/des-des/tachyons-webpack-boilerplate#readme",
+  "dependencies": {
+    "autoprefixer": "^7.1.1",
+    "css-loader": "^0.28.3",
+    "css-mqpacker": "^6.0.0",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "postcss-conditionals": "^2.1.0",
+    "postcss-css-variables": "^0.7.0",
+    "postcss-custom-media": "^6.0.0",
+    "postcss-import": "^10.0.0",
+    "postcss-loader": "^2.0.5",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "style-loader": "^0.18.1",
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.4.5"
+  }
+}
