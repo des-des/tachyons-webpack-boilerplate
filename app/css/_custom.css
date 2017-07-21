@@ -3,7 +3,7 @@
   color: var(--green)
 }
 
-/* and the media queries which can be overrided*/
+/* and the media queries which can be overriden*/
 @media (--breakpoint-medium) {
   .des-m {
     color: var(--green)

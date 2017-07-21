@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack-dev-server",
-    "build": "webpack -p"
+    "build": "webpack -p --config webpack_awaiting_pull.config.js",
+    "build_without_webpack": "node lib/build.js"
   },
   "keywords": [],
   "author": "des-des",

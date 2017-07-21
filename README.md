@@ -1,4 +1,4 @@
-# Tachyons with webpack boilerplate 
+# Tachyons with webpack boilerplate
 
 **Pull requests welcome :sparkles:**
 
@@ -8,7 +8,6 @@ The idea here is to build tachyons from source. This allows us to:
   1. Overwrite colors and media queries
   2. Use variables from tachyons in our own custom css
   3. Keep the tachyons source out of git history.
-
 
 ## How could this be better / What we need to do?
 
